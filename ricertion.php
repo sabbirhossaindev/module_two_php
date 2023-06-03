@@ -8,4 +8,14 @@
     printN($i);
  }
 
-printN(1);
+// printN(1);
+function printNumber($counter, $end, $stepping=1){
+    if($counter>$end){
+        return;
+    }
+    echo $counter . "\n";
+    $counter += $stepping;
+    printNumber($counter, $end, $stepping);
+}
+
+printNumber(21, 37, 2);
