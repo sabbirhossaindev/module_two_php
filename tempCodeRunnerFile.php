@@ -1,3 +1,3 @@
 <?php
-$student = array_pop($students);
-$student = array_shift($students);
+var_dump($vegetables);
+// echo $vegetables[0];
