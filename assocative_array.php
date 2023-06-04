@@ -17,3 +17,8 @@ for($i=0; $i<count($keys); $i++){
     $key = $keys[$i];
     echo $foods[$key] . "\n";
 }
+
+// serialize();
+// unserialize();
+// json_decode();
+// json_encode();
