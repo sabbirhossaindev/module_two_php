@@ -1,3 +1,2 @@
 <?php
-var_dump($vegetables);
-// echo $vegetables[0];
+$someFruits = array_slice($fruits, 2);
